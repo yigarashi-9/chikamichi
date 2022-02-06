@@ -44,7 +44,7 @@ TODO:Split the component into the following units
                 <span class="flex items-center w-520px">
                   <img :src="result.item.faviconUrl" alt="" class="w-16px h-16px mr-8px inline-block" />
                   <highlighter class="overflow-hidden block whitespace-nowrap text-over overflow-ellipsis mr-5px" :item="result.item.highlightedTitle" />
-                  <highlighter class="overflow-hidden text-gray-400 text-11px block whitespace-nowrap text-over overflow-ellipsis max-w-300px ml-auto mr-5px" :item="result.item.highlightedUrl" />
+                  <highlighter class="overflow-hidden text-gray-400 text-11px block whitespace-nowrap text-over overflow-ellipsis max-w-100px ml-auto mr-5px" :item="result.item.highlightedUrl" />
                 </span>
                 <span class="px-8px py-3px rounded-5px text-gray-400 bg-gray-200 dark:bg-gray-600 dark:text-gray-200">
                   {{ result.item.type }}
